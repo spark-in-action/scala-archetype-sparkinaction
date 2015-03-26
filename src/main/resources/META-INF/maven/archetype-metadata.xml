@@ -10,12 +10,6 @@
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
-      <directory>src/test/scala</directory>
-      <includes>
-        <include>**/*.scala</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8">
       <directory></directory>
       <includes>
         <include>.gitignore</include>
