@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-catalog xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd"
+    xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <archetypes>
+    <archetype>
+      <groupId>org.sparkinaction</groupId>
+      <artifactId>scala-archetype-sparkinaction</artifactId>
+      <version>0.1</version>
+      <description>Archetype used to scaffold projects for the Spark in Action book.</description>
+    </archetype>
+  </archetypes>
+</archetype-catalog>
