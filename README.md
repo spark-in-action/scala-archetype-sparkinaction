@@ -1,29 +1,40 @@
-# usage from cli :
+# Archetype to scaffold projects for Spark in Action book
 
-* interactive Mode (select scala-archetype-simple and response to questions) :
-
+* interactive Mode (select scala-archetype-sparkinaction and respond to questions) :
+* 
+```sh
         mvn archetype:generate
+```
 
 * non interactive / batch (change info in the last line) :
 
+```sh
         mvn archetype:generate -B \
-          -DarchetypeGroupId=net.alchim31.maven -DarchetypeArtifactId=scala-archetype-simple -DarchetypeVersion=1.5 \
+          -DarchetypeGroupId=org.sparkinaction -DarchetypeArtifactId=scala-archetype-sparkinaction -DarchetypeVersion=0.1 \
           -DgroupId=com.company -DartifactId=project -Dversion=0.1-SNAPSHOT -Dpackage=com.company
+```
 
 * example compile/run (run 'mvn scala:help' for full command list) :
 
+```sh
         mvn scala:compile
-
         mvn scala:run -DmainClass=com.company.App
+```
 
 # Changes:
 
-## 1.5
+## 0.1
+ * change java to 1.7
+ * make all other changes in pom to reflect SiA requirements
+
+===
+
+## 1.5 (davidB scala-archetype-simple)
 
 * upgrade of scala 2.10.0 
 * upgrade version of Specs(2), ScalaTest, Surefire, scala-maven-plugin
 
-## 1.4
+## 1.4 (davidB scala-archetype-simple)
 
 * move to sonatype for hosting
 * change groupId to net.alchim31.maven
@@ -35,5 +46,4 @@
 * upgrade version of Specs and ScalaTest
 * provide sample of Specs and ScalaTest runnable from maven and eclipse (at least)
 
-Have fun!
 
