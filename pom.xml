@@ -7,15 +7,15 @@
     <version>7</version>
   </parent>
 
-  <groupId>net.alchim31.maven</groupId>
-  <artifactId>scala-archetype-simple</artifactId>
-  <version>1.6-SNAPSHOT</version>
+  <groupId>org.sparkinaction.maven</groupId>
+  <artifactId>scala-archetype-sparkinaction</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
-  <name>Archetype - scala-archetype-simple</name>
-  <url>http://github.com/davidB/${project.artifactId}</url>
-  <inceptionYear>2012</inceptionYear>
-  <description>The maven-scala-plugin is used for compiling/testing/running/documenting scala code in maven.</description>
+  <name>Scala Spark archetype for Spark in Action</name>
+  <url>http://github.com/spark-in-action/${project.artifactId}</url>
+  <inceptionYear>2015</inceptionYear>
+  <description>Archetype used to scaffold projects for the Spark in Action book.</description>
 
   <licenses>
     <license>
@@ -26,36 +26,36 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git://github.com/davidB/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:davidB/${project.artifactId}.git</developerConnection>
-    <url>http://github.com/davidB/${project.artifactId}/</url>
+    <connection>scm:git:git://github.com/spark-in-action/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:spark-in-action/${project.artifactId}.git</developerConnection>
+    <url>http://github.com/spark-in-action/${project.artifactId}/</url>
   </scm>
 
   <issueManagement>
     <system>github</system>
-    <url>http://github.com/davidB/${project.artifactId}/issues#issue/</url>
+    <url>http://github.com/spark-in-action/${project.artifactId}/issues#issue/</url>
   </issueManagement>
 
   <mailingLists>
     <mailingList>
-      <name>maven-and-scala</name>
-      <archive>http://groups.google.com/group/maven-and-scala</archive>
-      <post>http://groups.google.com/group/maven-and-scala</post>
+      <name>Spark in Action Manning forum</name>
+      <archive>https://forums.manning.com/forums/spark-in-action</archive>
+      <post>https://forums.manning.com/forums/spark-in-action</post>
     </mailingList>
   </mailingLists>
 
   <developers>
     <developer>
-      <name>David Bernard</name>
-      <timezone>+1</timezone>
+      <name>Marko Bonaci</name>
+      <timezone>Europe/Zagreb</timezone>
     </developer>
   </developers>
 
   <properties>
     <maven.test.skip>true</maven.test.skip>
     <maven.version>3.0</maven.version>
-    <maven.compiler.source>1.6</maven.compiler.source>
-    <maven.compiler.target>1.6</maven.compiler.target>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
     <encoding>UTF-8</encoding>
     <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
   </properties>
@@ -81,28 +81,5 @@
         </plugin>
       </plugins>
     </pluginManagement>
-
-    <plugins>
-      <plugin>
-        <artifactId>maven-invoker-plugin</artifactId>
-        <version>1.8</version>
-        <executions>
-          <execution>
-            <id>integration-test</id>
-            <phase>integration-test</phase>
-            <goals>
-              <goal>integration-test</goal>
-            </goals>
-            <configuration>
-              <debug>false</debug>
-              <projectsDirectory>${project.build.directory}/test-classes/projects</projectsDirectory>
-              <pomIncludes>
-                <pomInclude>**/pom.xml</pomInclude>
-              </pomIncludes>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
   </build>
 </project>
