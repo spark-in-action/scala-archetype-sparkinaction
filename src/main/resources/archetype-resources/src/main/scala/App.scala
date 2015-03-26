@@ -1,15 +1,27 @@
 package ${package}
 
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+import org.apache.spark.SparkConf
+
 /**
  * @author ${user.name}
  */
 object App {
   
-  def foo(x : Array[String]) = x.foldLeft("")((a,b) => a + b)
-  
   def main(args : Array[String]) {
-    println( "Hello World!" )
-    println("concat arguments = " + foo(args))
+    val conf = new SparkConf()
+      .setAppName(${user.name}App)
+      .setMaster("local[2]")
+
+    val sc = new SparkContext(conf)
+    
+    val col = sc.parallelize(0 to 100 by 5)
+    val smp = col.sample(false, 2)
+    val colCount = col.count
+    val smpCount = smp.count
+    println("orig count = " + colCount)
+    println("sampled count = " + smpCount)
   }
 
 }
