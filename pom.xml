@@ -19,9 +19,8 @@
 
   <licenses>
     <license>
-      <name>Public domain (Unlicense)</name>
-      <url>http://unlicense.org/</url>
-      <distribution>repo</distribution>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
     </license>
   </licenses>
 
