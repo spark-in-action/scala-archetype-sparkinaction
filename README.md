@@ -1,6 +1,6 @@
 ### Archetype to scaffold projects for _Spark in Action_ book
 
- * In **Eclipse** or **IntelliJ IDEA**:  
+ * In **Eclipse** (or similar in **IntelliJ IDEA**):  
     1 `File > New > Project... > Maven > Maven Project`  
     2 `Next` on the first screen of the _New project_ wizard  
     3 `Configure... > Add Remote Catalog...`  
@@ -15,8 +15,7 @@ http://goo.gl/ln2pF0 is just a shorthand for  https://github.com/spark-in-action
  * **From the terminal** (interactive mode): Select the only option (1) and answer subsequent questions:
 
 ```sh
-mvn archetype:generate \
--DarchetypeCatalog=http://goo.gl/ln2pF0
+mvn archetype:generate -DarchetypeCatalog=http://goo.gl/ln2pF0
 ```
 
  * **Batch mode** (change the values in the last line):
