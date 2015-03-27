@@ -8,14 +8,14 @@ import org.apache.spark.SparkConf
  * @author ${user.name}
  */
 object App {
-  
+
   def main(args : Array[String]) {
     val conf = new SparkConf()
-      .setAppName(${user.name}App)
+      .setAppName("The swankiest Spark app ever")
       .setMaster("local[2]")
 
     val sc = new SparkContext(conf)
-    
+
     val col = sc.parallelize(0 to 100 by 5)
     val smp = col.sample(false, 2)
     val colCount = col.count

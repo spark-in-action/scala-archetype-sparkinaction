@@ -31,7 +31,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-core_2.10</artifactId>
+      <artifactId>spark-core_${scala.tools.version}</artifactId>
       <version>1.3.0</version>
       <scope>compile</scope>
     </dependency>
