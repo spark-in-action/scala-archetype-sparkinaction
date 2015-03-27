@@ -6,7 +6,8 @@
     3 `Configure... > Add Remote Catalog...`  
     4 Enter the following URL in the `Catalog file` field:  
     https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master/archetype-catalog.xml  
-    Enter _Spark in Action_ (or whatever) in the `Description` field
+    Enter _Spark in Action_ (or whatever) in the `Description` field  
+    5 Select the catalog you just created
 
  * **From the terminal** (interactive mode): Select the only option (1) and answer subsequent questions:
 
@@ -26,7 +27,7 @@ mvn archetype:generate -B \
     -DgroupId=com.company -DartifactId=project -Dversion=0.1-SNAPSHOT -Dpackage=com.company
 ```
 
- * Example usage (run `mvn scala:help` for full list of commands) :
+ * ***Example usage*** *(run `mvn scala:help` for full list of commands):*
 
 ```sh
 mvn scala:compile
