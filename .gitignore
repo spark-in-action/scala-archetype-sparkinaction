@@ -13,6 +13,9 @@ syntax: glob
 .project
 .manager
 
+# idea conf
+.idea/
+
 # building
 target
 build
