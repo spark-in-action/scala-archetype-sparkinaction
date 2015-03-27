@@ -15,6 +15,7 @@ syntax: glob
 
 # idea conf
 .idea/
+*.iml
 
 # building
 target

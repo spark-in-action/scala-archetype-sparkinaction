@@ -20,6 +20,7 @@ object App {
     val smp = col.sample(false, 2)
     val colCount = col.count
     val smpCount = smp.count
+    
     println("orig count = " + colCount)
     println("sampled count = " + smpCount)
   }
