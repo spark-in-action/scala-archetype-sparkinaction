@@ -9,7 +9,7 @@
 
   <groupId>org.sparkinaction</groupId>
   <artifactId>scala-archetype-sparkinaction</artifactId>
-  <version>0.1</version>
+  <version>0.4</version>
   <packaging>maven-archetype</packaging>
 
   <name>Scala Spark archetype for Spark in Action</name>
@@ -68,7 +68,7 @@
       <extension>
         <groupId>org.apache.maven.archetype</groupId>
         <artifactId>archetype-packaging</artifactId>
-        <version>2.2</version>
+        <version>2.3</version>
       </extension>
     </extensions>
 

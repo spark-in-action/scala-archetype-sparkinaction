@@ -1,8 +1,10 @@
 
 ### Changes:
 
-### 0.3 (this fork)
- * add test source folder (resolves Eclipse build path warning)
+### 0.4 (this fork)
+ * add back unit, integration and BDD-style test examples
+
+### 0.3
  * improve README with more detailed information (step 6)
  * improve README formatting and style
 
