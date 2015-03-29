@@ -17,7 +17,7 @@ object App {
     val sc = new SparkContext(conf)
 
     val col = sc.parallelize(0 to 100 by 5)
-    val smp = col.sample(false, 2)
+    val smp = col.sample(true, 4)
     val colCount = col.count
     val smpCount = smp.count
     
