@@ -10,7 +10,7 @@
 6. In the next dialog simply enter you project details and confirm with `Finish`
 
  <small>
- More detailed, tutorial-style instructions, with all the prerequisites are in chapter 2 of the book.
+ More detailed, tutorial-style instructions, with all the prerequisites are in chapter 3 of the book.
  </small>
 
  * **From the terminal** (interactive mode):  
