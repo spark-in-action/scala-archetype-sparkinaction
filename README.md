@@ -1,17 +1,13 @@
 ### Archetype to scaffold projects for the ___Spark in Action___ book
 
  * In **Eclipse** (or similar in **IntelliJ IDEA**):  
-    1 `File > New > Project... > Maven > Maven Project`  
-    2 `Next` on the first screen of the _New project_ wizard  
-    3 `Configure... > Add Remote Catalog...`  
-    4 Enter the following URL in the `Catalog file` field: https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master/archetype-catalog.xml  
+1. `File > New > Project... > Maven > Maven Project`  
+2. Click `Next` on the first screen of the _New project_ wizard  
+3. Select `Configure... > Add Remote Catalog...`  
+4. Enter the following URL in the `Catalog file` field: https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master/archetype-catalog.xml  
       Enter `Spark in Action` in the `Description` field  
-    5 After you close the dialog, choose the `Spark in Action` catalog in the `Catalog` dropdown list
-
-<small>
-We experienced some intermittent problems with GitHub hosted archetype catalogs when trying to use them from Eclipse/Idea. If that happens to you, please use one of the following two methods from the terminal. After the project materializes, simply _Import existing Maven project_ from your IDE of choice.
-</small>
-
+5. After you close the dialog, choose the `Spark in Action` catalog in the `Catalog` dropdown list
+6. In the next dialog simply enter you project details and confirm with `Finish`
 
 
  * **From the terminal** (interactive mode):  
@@ -24,10 +20,9 @@ mvn archetype:generate -DarchetypeCatalog=https://github.com/spark-in-action/sca
 ```
 
 
-
  * **From the terminal or a shell script** (batch mode):  
  <small>
- Don't forget to change parameter values in the last line.
+ Don't forget to change the parameter values in the last line.
  </small>
 
 ```sh
@@ -40,9 +35,7 @@ mvn archetype:generate -B \
 ```
 
 
-
- * ***Generated project example usage*** *(run `mvn scala:help` for full list of commands):*
-
+ * ***Generated project example usage*** *(run* `mvn scala:help` *for the full list of commands):*
 
 ```sh
 mvn scala:compile
