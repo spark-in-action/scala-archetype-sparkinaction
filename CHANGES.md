@@ -1,7 +1,16 @@
 
 ### Changes:
 
-### 0.1 (this fork)
+### 0.3 (this fork)
+ * add test source folder (resolves Eclipse build path warning)
+ * improve README with more detailed information (step 6)
+ * improve README formatting and style
+
+### 0.2
+ * improve README with more info
+ * add book pitch to README :)
+
+### 0.1
  * adapt README instructions to Spark
  * change java to 1.7
  * make all other changes in pom to reflect SiA requirements

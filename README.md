@@ -9,6 +9,9 @@
 5. After you close the dialog, choose the `Spark in Action` catalog in the `Catalog` dropdown list
 6. In the next dialog simply enter you project details and confirm with `Finish`
 
+ <small>
+ More detailed, tutorial-style instrctions in the book.
+ </small>
 
  * **From the terminal** (interactive mode):  
  <small>
