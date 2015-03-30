@@ -8,6 +8,9 @@
       Enter `Spark in Action` in the `Description` field  
 5. After you close the dialog, choose the `Spark in Action` catalog in the `Catalog` dropdown list
 6. In the next dialog simply enter you project details and confirm with `Finish`
+7. Once the new projects generates change the Scala version to 2.10.5: 
+      Right click on the generated project and select: 
+      `Scala > Set the Scala Installation > Fixed Scala Installation 2.10.5.(bundled)`
 
  <small>
  More detailed, tutorial-style instructions, with all the prerequisites are in chapter 3 of the book.
