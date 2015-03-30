@@ -8,8 +8,8 @@
       Enter `Spark in Action` in the `Description` field  
 5. After you close the dialog, choose the `Spark in Action` catalog in the `Catalog` dropdown list
 6. In the next dialog simply enter you project details and confirm with `Finish`
-7. Once the new projects generates change the Scala version to 2.10.5: 
-      Right click on the generated project and select: 
+7. Once the new projects generates change the Scala version to 2.10.5:
+      Right click on the generated project and select:
       `Scala > Set the Scala Installation > Fixed Scala Installation 2.10.5.(bundled)`
 
  <small>
@@ -36,7 +36,7 @@ mvn archetype:generate -B \
     -DarchetypeCatalog=https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master/archetype-catalog.xml \
     -DarchetypeGroupId=org.sparkinaction \
     -DarchetypeArtifactId=scala-archetype-sparkinaction \
-    -DarchetypeVersion=0.1 \
+    -DarchetypeVersion=0.4 \
     -DgroupId=com.company -DartifactId=project -Dversion=0.1-SNAPSHOT -Dpackage=com.company
 ```
 
