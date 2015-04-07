@@ -1,6 +1,6 @@
 ### Archetype to scaffold projects for the ___Spark in Action___ book
 
- * In **Eclipse** (for **IntelliJ IDEA** first use interactive or batch mode in terminal to generate a new project then import it as an existing maven project):  
+ * In **Eclipse** (for **IntelliJ IDEA** first use interactive or batch mode in terminal to generate a new project then import it as existing maven project):  
 1. `File > New > Project... > Maven > Maven Project`  
 2. Click `Next` on the first screen of the _New project_ wizard  
 3. Select `Configure... > Add Remote Catalog...`  
