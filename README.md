@@ -1,6 +1,6 @@
 ### Archetype to scaffold projects for the ___Spark in Action___ book
 
- * In **Eclipse** (or similar in **IntelliJ IDEA**):  
+ * In **Eclipse** (for **IntelliJ IDEA** first use interactive or batch mode in terminal to generate a new project then import it as an existing maven project):  
 1. `File > New > Project... > Maven > Maven Project`  
 2. Click `Next` on the first screen of the _New project_ wizard  
 3. Select `Configure... > Add Remote Catalog...`  
@@ -22,7 +22,9 @@
  </small>
 
 ```sh
-mvn archetype:generate -DarchetypeCatalog=https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master/archetype-catalog.xml
+mvn archetype:generate \
+  -DarchetypeCatalog=https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master/archetype-catalog.xml \
+  -DarchetypeRepository=https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master
 ```
 
 
@@ -34,6 +36,7 @@ mvn archetype:generate -DarchetypeCatalog=https://github.com/spark-in-action/sca
 ```sh
 mvn archetype:generate -B \
     -DarchetypeCatalog=https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master/archetype-catalog.xml \
+    -DarchetypeRepository=https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master \
     -DarchetypeGroupId=org.sparkinaction \
     -DarchetypeArtifactId=scala-archetype-sparkinaction \
     -DarchetypeVersion=0.4 \
