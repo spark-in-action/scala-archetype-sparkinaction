@@ -91,6 +91,10 @@
             </goals>
             <configuration>
               <args>
+<<<<<<< HEAD
+=======
+                <!--<arg>-make:transitive</arg>-->
+>>>>>>> fe6473bea45a5402998e66894c0ed528172275d7
                 <arg>-dependencyfile</arg>
                 <arg>${project.build.directory}/.scala_dependencies</arg>
               </args>
