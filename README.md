@@ -1,9 +1,11 @@
-### Archetype to scaffold projects for the ___Spark in Action___ book
+### Archetype to scaffold projects for the ___Spark in Action___ book  
 
-A plug for my [Spark in Action](http://t.co/8dVXGkfits) book (if you came here from somewhere else).  
-Use coupon code **mlbonaci** for 50% off.
-<center>![spark-in-action](http://www.manning.com/bonaci/bonaci_cover150.jpg)</center>
-
+<img src="http://www.manning.com/bonaci/bonaci_cover150.jpg"
+ alt="The book cover" title="Spark in Action cover page" align="right" />  
+However unlikely, you maybe still haven't purchased the book, so here's the link: [Spark in Action](http://t.co/8dVXGkfits). Use coupon code `mlbonaci` for 50% off.  
+Thanks
+<br><br><br><br>
+ 
 
  * In **Eclipse** (for **IntelliJ IDEA** first use interactive or batch mode in terminal to generate a new project then import it as existing maven project):  
 1. `File > New > Project... > Maven > Maven Project`  
@@ -56,6 +58,4 @@ mvn scala:compile
 mvn scala:run -DmainClass=com.company.App
 ```
 
-
-<blockquote class="twitter-tweet" lang="en"><p>Just got affiliate link (8%) from the publisher for my Spark in Action. 50% off code: mlbonaci <a href="http://t.co/8dVXGkfits">http://t.co/8dVXGkfits</a> <a href="http://t.co/JBE8vldPZc">pic.twitter.com/JBE8vldPZc</a></p>&mdash; Marko Bonaci (@markobonaci) <a href="https://twitter.com/markobonaci/status/585904222920699904">April 8, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+Thank you for purchasing the book :)
