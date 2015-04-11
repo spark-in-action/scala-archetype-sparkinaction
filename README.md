@@ -2,7 +2,7 @@
 
 <img src="http://www.manning.com/bonaci/bonaci_cover150.jpg"
  alt="The book cover" title="Spark in Action cover page" align="right" />  
-However unlikely, you maybe still haven't purchased the book, so here's the link: [Spark in Action](http://t.co/8dVXGkfits). Use coupon code `mlbonaci` for 50% off.  
+However unlikely, you maybe still haven't purchased the book, so here's the link: [Spark in Action](http://t.co/8dVXGkfits). Use the coupon code `mlbonaci` for 50% off.  
 Thanks
 <br><br><br><br>
  
