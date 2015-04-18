@@ -1,11 +1,11 @@
-### Archetype to scaffold projects for the ___Spark in Action___ book  
+### Archetype to scaffold projects for the ___Spark in Action___ book
 
 <img src="http://www.manning.com/bonaci/bonaci_cover150.jpg"
  alt="The book cover" title="Spark in Action cover page" align="right" />  
 However unlikely, you maybe still haven't purchased the book, so here's the link: [Spark in Action](http://t.co/8dVXGkfits). Use the coupon code `mlbonaci` for 50% off.  
 Thanks
 <br><br><br><br>
- 
+
 
  * In **Eclipse** (for **IntelliJ IDEA** first use interactive or batch mode in terminal to generate a new project then import it as existing maven project):  
 1. `File > New > Project... > Maven > Maven Project`  
@@ -46,7 +46,7 @@ mvn archetype:generate -B \
     -DarchetypeRepository=https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master \
     -DarchetypeGroupId=org.sparkinaction \
     -DarchetypeArtifactId=scala-archetype-sparkinaction \
-    -DarchetypeVersion=0.4 \
+    -DarchetypeVersion=0.7 \
     -DgroupId=com.company -DartifactId=project -Dversion=0.1-SNAPSHOT -Dpackage=com.company
 ```
 

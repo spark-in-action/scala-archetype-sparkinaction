@@ -6,7 +6,7 @@
     <archetype>
       <groupId>org.sparkinaction</groupId>
       <artifactId>scala-archetype-sparkinaction</artifactId>
-      <version>0.4</version>
+      <version>0.7</version>
       <description>Archetype used to scaffold projects for the Spark in Action book.</description>
     </archetype>
   </archetypes>

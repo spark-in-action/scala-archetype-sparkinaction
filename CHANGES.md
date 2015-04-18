@@ -1,7 +1,18 @@
 
 ### Changes:
 
-### 0.4 (this fork)
+### 0.7 (this fork)
+ * add spark.version as a parameter in pom
+ * improve README (add IntelliJ instructions)
+ * active versions are 0.4, 0.6 and 0.7
+
+### 0.6
+ * fix problem with IntelliJ (uses the same param for arch. catalog and repository)
+
+### 0.5
+ * test multiple versions of archetype
+
+### 0.4
  * add back unit, integration and BDD-style test examples
 
 ### 0.3
