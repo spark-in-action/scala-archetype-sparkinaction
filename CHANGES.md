@@ -1,7 +1,10 @@
 
 ### Changes:
 
-### 0.7 (this fork)
+### 0.8
+ * bump Spark to 1.3.1
+
+### 0.7
  * add spark.version as a parameter in pom
  * improve README (add IntelliJ instructions)
  * active versions are 0.4, 0.6 and 0.7
@@ -30,7 +33,7 @@
 
 ----
 
-### Changes in the original repo (davidB `scala-archetype-simple`):
+### Changes in the original repo (davidB's `scala-archetype-simple`):
 ### 1.5
 
 * upgrade of scala 2.10.0
