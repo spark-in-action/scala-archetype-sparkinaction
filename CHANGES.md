@@ -1,7 +1,11 @@
 
 ### Changes:
 
-### 0.7 (this fork)
+### 0.8
+ * upgrade to Spark-1.3.1
+ * active version only the latest from now on
+
+### 0.7
  * add spark.version as a parameter in pom
  * improve README (add IntelliJ instructions)
  * active versions are 0.4, 0.6 and 0.7
