@@ -8,7 +8,6 @@
 ### 0.7
  * add spark.version as a parameter in pom
  * improve README (add IntelliJ instructions)
- * active versions are 0.4, 0.6 and 0.7
 
 ### 0.6
  * fix problem with IntelliJ (uses the same param for arch. catalog and repository)
