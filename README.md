@@ -55,7 +55,7 @@ mvn archetype:generate -B \
 
 You can run the generated project by simply doing `Shift+Alt+x s` (while positioned in `App.scala`), which is the shortcut for `Run As > Scala Application`.
 
-You can also run it from the command line or from Eclipse Maven _Run configuration_ with these _goals_:
+You can also run it from the command line or from Eclipse Maven _Run configuration_:
 
 ```sh
 mvn scala:compile

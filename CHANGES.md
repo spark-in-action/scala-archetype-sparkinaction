@@ -34,7 +34,7 @@
 
 ----
 
-### Changes in the original repo (davidB `scala-archetype-simple`):
+### Changes in the original repo (davidB's `scala-archetype-simple`):
 ### 1.5
 
 * upgrade of scala 2.10.0
