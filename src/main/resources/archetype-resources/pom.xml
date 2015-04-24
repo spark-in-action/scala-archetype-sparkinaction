@@ -37,19 +37,21 @@
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-library</artifactId>
       <version>${scala.version}</version>
+      <!-- <scope>provided</scope> -->
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-core_${scala.tools.version}</artifactId>
       <version>${spark.version}</version>
-      <scope>compile</scope>
+      <scope>provided</scope>
     </dependency>
-    <!-- <dependency>
+    <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-sql_${scala.tools.version}</artifactId>
       <version>${spark.version}</version>
-      <scope>compile</scope>
-    </dependency> -->
+      <scope>provided</scope>
+    </dependency>
+    
     
     <!-- Test -->
     <dependency>
