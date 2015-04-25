@@ -37,7 +37,6 @@
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-library</artifactId>
       <version>${scala.version}</version>
-      <!-- <scope>provided</scope> -->
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
@@ -116,6 +115,21 @@
           </includes>
         </configuration>
       </plugin>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>2.3</version>        
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      
       
     </plugins>
   </build>
