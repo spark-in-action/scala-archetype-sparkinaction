@@ -6,7 +6,7 @@
     <archetype>
       <groupId>org.sparkinaction</groupId>
       <artifactId>scala-archetype-sparkinaction</artifactId>
-      <version>0.8</version>
+      <version>0.9</version>
       <description>Written for the Spark in Action book, the archetype is used to bootstrap a new Spark/Scala project.</description>
     </archetype>
   </archetypes>
