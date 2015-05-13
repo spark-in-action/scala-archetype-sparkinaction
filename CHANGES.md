@@ -2,12 +2,12 @@
 ### Changes:
 
 ### 0.8
- * bump Spark to 1.3.1
+ * upgrade to Spark-1.3.1
+ * active version only the latest from now on
 
 ### 0.7
  * add spark.version as a parameter in pom
  * improve README (add IntelliJ instructions)
- * active versions are 0.4, 0.6 and 0.7
 
 ### 0.6
  * fix problem with IntelliJ (uses the same param for arch. catalog and repository)
