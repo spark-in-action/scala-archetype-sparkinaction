@@ -1,6 +1,13 @@
 ### Archetype to scaffold projects for the ___Spark in Action___ book
 
- * In **Eclipse** (or similar in **IntelliJ IDEA**):  
+<img src="http://www.manning.com/bonaci/bonaci_cover150.jpg"
+ alt="The book cover" title="Spark in Action cover page" align="right" />  
+However unlikely, you maybe still haven't purchased the book, so here's the link: [Spark in Action](http://t.co/8dVXGkfits). Use the coupon code `mlbonaci` for 50% off.  
+Thanks
+<br><br><br><br>
+
+
+ * In **Eclipse** (for **IntelliJ IDEA** first use interactive or batch mode in terminal to generate a new project then import it as existing maven project):  
 1. `File > New > Project... > Maven > Maven Project`  
 2. Click `Next` on the first screen of the _New project_ wizard  
 3. Select `Configure... > Add Remote Catalog...`  
@@ -22,7 +29,9 @@
  </small>
 
 ```sh
-mvn archetype:generate -DarchetypeCatalog=https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master/archetype-catalog.xml
+mvn archetype:generate \
+  -DarchetypeCatalog=https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master/archetype-catalog.xml \
+  -DarchetypeRepository=https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master
 ```
 
 
@@ -34,16 +43,23 @@ mvn archetype:generate -DarchetypeCatalog=https://github.com/spark-in-action/sca
 ```sh
 mvn archetype:generate -B \
     -DarchetypeCatalog=https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master/archetype-catalog.xml \
+    -DarchetypeRepository=https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master \
     -DarchetypeGroupId=org.sparkinaction \
     -DarchetypeArtifactId=scala-archetype-sparkinaction \
-    -DarchetypeVersion=0.4 \
+    -DarchetypeVersion=0.11 \
     -DgroupId=com.company -DartifactId=project -Dversion=0.1-SNAPSHOT -Dpackage=com.company
 ```
 
 
  * ***Generated project example usage*** *(run* `mvn scala:help` *for the full list of commands):*
 
+You can run the generated project by simply doing `Shift+Alt+x s` (while positioned in `App.scala`), which is the shortcut for `Run As > Scala Application`.
+
+You can also run it from the command line or from Eclipse Maven _Run configuration_ with these _goals_:
+
 ```sh
 mvn scala:compile
 mvn scala:run -DmainClass=com.company.App
 ```
+
+Thank you for purchasing the book :)
