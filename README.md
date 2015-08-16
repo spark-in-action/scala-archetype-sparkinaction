@@ -14,7 +14,7 @@ Thanks
 4. Enter the following URL in the `Catalog file` field: https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master/archetype-catalog.xml  
       Enter `Spark in Action` in the `Description` field  
 5. After you close the dialog, choose the `Spark in Action` catalog in the `Catalog` dropdown list
-6. In the next dialog simply enter you project details and confirm with `Finish`
+6. In the next dialog simply enter you project details and confirm with `Finish`. In case of problems with this step (such as IDE not being able to locate the POM file) try to use a different URL in the step 4: https://raw.githubusercontent.com/spark-in-action/scala-archetype-sparkinaction/master/archetype-catalog.xml
 7. Once the new projects generates change the Scala version to 2.10.5:
       Right click on the generated project and select:
       `Scala > Set the Scala Installation > Fixed Scala Installation 2.10.5.(bundled)`
