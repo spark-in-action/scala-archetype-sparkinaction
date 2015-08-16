@@ -13,7 +13,7 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
-  <!-- Example of a non-restrictive license (MIT)
+  <!-- Example definition of a non-restrictive license (MIT)
    <licenses>
     <license>
       <name>MIT License</name>
@@ -112,6 +112,16 @@
             <include>**/*Test.*</include>
             <include>**/*Suite.*</include>
           </includes>
+          <filters>
+            <filter>
+              <artifact>*:*</artifact>
+              <excludes>
+                <exclude>META-INF/*.SF</exclude>
+                <exclude>META-INF/*.DSA</exclude>
+                <exclude>META-INF/*.RSA</exclude>
+              </excludes>
+            </filter>
+          </filters>
         </configuration>
       </plugin>
       
