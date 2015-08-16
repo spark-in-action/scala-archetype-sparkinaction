@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>9</version>
+  </parent>
+
+  <groupId>org.sparkinaction</groupId>
+  <artifactId>scala-archetype-sparkinaction</artifactId>
+  <version>0.11</version>
+  <packaging>maven-archetype</packaging>
+
+  <name>Scala Spark archetype for Spark in Action</name>
+  <url>http://github.com/spark-in-action/${project.artifactId}</url>
+  <inceptionYear>2015</inceptionYear>
+  <description>Archetype used to scaffold projects for the Spark in Action book.</description>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:git://github.com/spark-in-action/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:spark-in-action/${project.artifactId}.git</developerConnection>
+    <url>http://github.com/spark-in-action/${project.artifactId}/</url>
+  </scm>
+
+  <issueManagement>
+    <system>github</system>
+    <url>http://github.com/spark-in-action/${project.artifactId}/issues#issue/</url>
+  </issueManagement>
+
+  <mailingLists>
+    <mailingList>
+      <name>Spark in Action Manning forum</name>
+      <archive>https://forums.manning.com/forums/spark-in-action</archive>
+      <post>https://forums.manning.com/forums/spark-in-action</post>
+    </mailingList>
+  </mailingLists>
+
+  <developers>
+    <developer>
+      <name>Marko Bonaci</name>
+      <timezone>Europe/Zagreb</timezone>
+    </developer>
+  </developers>
+
+  <properties>
+    <maven.test.skip>true</maven.test.skip>
+    <maven.version>3.0</maven.version>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+    <encoding>UTF-8</encoding>
+    <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
+  </properties>
+
+  <prerequisites>
+    <maven>${maven.version}</maven>
+  </prerequisites>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>2.3</version>
+      </extension>
+    </extensions>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-archetype-plugin</artifactId>
+          <version>2.3</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>

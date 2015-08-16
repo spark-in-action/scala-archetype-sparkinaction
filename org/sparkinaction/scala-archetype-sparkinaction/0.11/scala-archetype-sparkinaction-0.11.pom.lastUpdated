@@ -1,0 +1,10 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Aug 16 07:41:56 CEST 2015
+a1cde0da5cc6343b23feae4bbb15cff45aa89e93@default-http\://localhost\:8088/repository/sematext-release/.lastUpdated=1439703714453
+http\://repo.maven.apache.org/maven2/.lastUpdated=1439703712429
+http\://localhost\:8088/repository/sematext-snapshot/.error=Could not transfer artifact org.sparkinaction\:scala-archetype-sparkinaction\:pom\:0.11 from/to sematext-snapshot-old (http\://localhost\:8088/repository/sematext-snapshot)\: Connection refused\: connect
+http\://localhost\:8088/repository/sematext-release/.error=Could not transfer artifact org.sparkinaction\:scala-archetype-sparkinaction\:pom\:0.11 from/to sematext-release-old (http\://localhost\:8088/repository/sematext-release)\: Connection refused\: connect
+a1cde0da5cc6343b23feae4bbb15cff45aa89e93@default-http\://localhost\:8088/repository/sematext-snapshot/.lastUpdated=1439703716497
+https\://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master/.error=
+http\://repo.maven.apache.org/maven2/.error=
+https\://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master/.lastUpdated=1439703712363
