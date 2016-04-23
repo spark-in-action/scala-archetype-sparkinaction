@@ -11,6 +11,13 @@
       </includes>
     </fileSet>
     
+    <fileSet encoding="UTF-8" packaged="false">
+      <directory>src/main/resources</directory>
+      <includes>
+        <include>log4j.properties</include>
+      </includes>
+    </fileSet>
+    
     <fileSet encoding="UTF-8">
       <directory>src/test/scala</directory>
       <includes>

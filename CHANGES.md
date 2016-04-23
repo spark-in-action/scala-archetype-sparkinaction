@@ -1,6 +1,11 @@
 
 ### Changes:
 
+### 0.13
+ * upgrade Scala to 2.11
+ * upgrade Java to 1.8
+ * upgrade Spark to 1.6.1
+
 ### 0.4 (this fork)
  * add back unit, integration and BDD-style test examples
 

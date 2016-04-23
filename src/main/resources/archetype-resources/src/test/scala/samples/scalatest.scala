@@ -51,12 +51,12 @@ class StackSuite extends Assertions {
 Here's an example of a FunSuite with ShouldMatchers mixed in:
 */
 import org.scalatest.FunSuite
-import org.scalatest.matchers.ShouldMatchers
+import org.scalatest.Matchers._
 
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
 @RunWith(classOf[JUnitRunner])
-class ListSuite extends FunSuite with ShouldMatchers {
+class ListSuite extends FunSuite {
 
   test("An empty list should be empty") {
     List() should be ('empty)

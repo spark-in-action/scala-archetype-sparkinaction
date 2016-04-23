@@ -2,8 +2,11 @@
 <archetype>
   <id>scala-archetype-sparkinaction</id>
   <sources>
-    <source>src/main/scala/App.scala</source>
+    <source>src/main/scala/App.scala</source>    
   </sources>
+  <resources>
+  	<resource>src/main/resources/log4j.properties</resource>
+  </resources>
   <testSources>
     <source>src/test/scala/AppTest.scala</source>
     <source>src/test/scala/MySpec.scala</source>
