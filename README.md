@@ -8,7 +8,7 @@ Thanks
 <br><br><br><br>
 
 
- * In **Eclipse** (for **IntelliJ IDEA** first use interactive or batch mode in terminal to generate a new project then import it as existing maven project):  
+#### Eclipse:
 1. `File > New > Project... > Maven > Maven Project`  
 2. Click `Next` on the first screen of the _New project_ wizard  
 3. Select `Configure... > Add Remote Catalog...`  
@@ -20,11 +20,29 @@ Thanks
       Right click on the generated project and select:
       `Scala > Set the Scala Installation > Fixed Scala Installation 2.10.5.(bundled)`
 
+#### IntelliJ IDEA:
+1. `File > New > Project... > Maven`
+2. Select `Create from Archetype` and click on `Add Archetype` button
+3. Fill-in the `Add archetype` dialog:
+   * `GroupId`:    `org.sparkinaction`
+   * `ArtifactId`: `scala-archetype-sparkinaction`
+   * `Version`:    `0.14`
+   * `Repository`: `https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master`
+   And confirm with OK.
+4. In the list of archetypes, find `org.sparkinaction`, the one that you just added, expand it and select the archetype with the version and click `Next`
+5. Enter parameters for your new project:
+   * `GroupId`:    `org.sia`
+   * `ArtifactId`: `chapter-03-app`
+   * `Version`:    `0.1-SNAPSHOT`
+6. In the next screen, just confirm with `Next`
+7. In the last screen, enter `Chapter03App` as the project name and click `Finish`
+
+
  <small>
  More detailed, tutorial-style instructions, with all the prerequisites are in chapter 3 of the book.
  </small>
 
- * **From the terminal** (interactive mode):  
+ #### From the terminal (interactive mode):
  <small>
  Select the only possible option (1) and answer subsequent questions.
  </small>
@@ -36,7 +54,7 @@ mvn archetype:generate \
 ```
 
 
- * **From the terminal or a shell script** (batch mode):  
+ #### From the terminal or a shell script (batch mode):
  <small>
  Don't forget to change the parameter values in the last line.
  </small>
@@ -47,20 +65,21 @@ mvn archetype:generate -B \
     -DarchetypeRepository=https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master \
     -DarchetypeGroupId=org.sparkinaction \
     -DarchetypeArtifactId=scala-archetype-sparkinaction \
-    -DarchetypeVersion=0.13 \
-    -DgroupId=com.company -DartifactId=project -Dversion=0.1-SNAPSHOT -Dpackage=com.company
+    -DarchetypeVersion=0.14 \
+    -DgroupId=com.sia -DartifactId=chapter-03-app -Dversion=0.1-SNAPSHOT -Dpackage=com.sia
 ```
 
 
- * ***Generated project example usage*** *(run* `mvn scala:help` *for the full list of commands):*
+#### Generated project example usage
+*(run `mvn scala:help` for the full list of commands)*
 
-You can run the generated project by simply doing `Shift+Alt+x s` (while positioned in `App.scala`), which is the shortcut for `Run As > Scala Application`.
+In Eclipse, you can run the generated project by simply doing `Shift+Alt+x s` (while positioned in `App.scala`), which is the shortcut for `Run As > Scala Application`.
 
-You can also run it from the command line or from Eclipse Maven _Run configuration_ with these _goals_:
+You can also run it from the command line or from Eclipse Maven _Run configuration_ with these _goals_ (adjust main class if needed):
 
 ```sh
 mvn scala:compile
-mvn scala:run -DmainClass=com.company.App
+mvn scala:run -DmainClass=com.sia.Chapter03App
 ```
 
-Thank you for purchasing the book :)
+If you choose to purchase the book, thank you :)
