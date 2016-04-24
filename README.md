@@ -26,7 +26,7 @@ Thanks
 3. Fill-in the `Add archetype` dialog:
    * `GroupId`:    `org.sparkinaction`
    * `ArtifactId`: `scala-archetype-sparkinaction`
-   * `Version`:    `0.14`
+   * `Version`:    `0.13`
    * `Repository`: `https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master`
    And confirm with OK.
 4. In the list of archetypes, find `org.sparkinaction`, the one that you just added, expand it and select the archetype with the version and click `Next`
@@ -65,8 +65,8 @@ mvn archetype:generate -B \
     -DarchetypeRepository=https://github.com/spark-in-action/scala-archetype-sparkinaction/raw/master \
     -DarchetypeGroupId=org.sparkinaction \
     -DarchetypeArtifactId=scala-archetype-sparkinaction \
-    -DarchetypeVersion=0.14 \
-    -DgroupId=com.sia -DartifactId=chapter-03-app -Dversion=0.1-SNAPSHOT -Dpackage=com.sia
+    -DarchetypeVersion=0.13 \
+    -DgroupId=com.sia -DartifactId=chapter03App -Dversion=0.1-SNAPSHOT -Dpackage=com.sia
 ```
 
 
