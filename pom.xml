@@ -48,6 +48,10 @@
       <name>Marko Bonaci</name>
       <timezone>Europe/Zagreb</timezone>
     </developer>
+    <developer>
+      <name>Petar Zecevic</name>
+      <timezone>Europe/Zagreb</timezone>
+    </developer>
   </developers>
 
   <properties>

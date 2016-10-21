@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>chapter03App</name>
   <description></description>
-  <inceptionYear>2015</inceptionYear>
+  <inceptionYear>2016</inceptionYear>
   <licenses>
     <license>
       <name>Choose License</name>
@@ -27,9 +27,9 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <encoding>UTF-8</encoding>
-    <scala.tools.version>2.10</scala.tools.version>
-    <scala.version>2.10.6</scala.version>
-    <spark.version>1.6.1</spark.version>
+    <scala.tools.version>2.11</scala.tools.version>
+    <scala.version>2.11.8</scala.version>
+    <spark.version>2.0.0</spark.version>
   </properties>
 
   <dependencies>

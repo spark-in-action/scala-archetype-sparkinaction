@@ -1,6 +1,6 @@
 package org.sia.chapter03App
 
-import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.sql.SparkSession
 
 /**
  * @author ${user.name}
@@ -8,11 +8,12 @@ import org.apache.spark.{SparkConf, SparkContext}
 object App {
 
   def main(args : Array[String]) {
-    val conf = new SparkConf()
-      .setAppName("The swankiest Spark app ever")
-      .setMaster("local[*]")
+    val spark = SparkSession.builder()
+      .appName("The swankiest Spark app ever")
+      .master("local[*]")
+      .getOrCreate()
 
-    val sc = new SparkContext(conf)
+    val sc = spark.sparkContext
 
     val col = sc.parallelize(0 to 100 by 5)
     val smp = col.sample(true, 4)
